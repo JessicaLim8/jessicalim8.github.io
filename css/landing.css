@@ -1,0 +1,41 @@
+#mainPage {
+  background-color: black;
+  min-height: 100vh;
+  width: 100%;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+.infoSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.mainDiv {
+  padding: 0 2em;
+  max-width: 30%;
+  text-align: center;
+}
+
+.social-icon {
+  color: white;
+  padding: 10px;
+  font-size: 2.5em;
+}
+
+.social-icon:hover {
+  color: grey
+}
+
+.mainDiv {
+  height: 100%
+}
+
+#imgMe {
+  height: 20em;
+  border-radius: 40%;
+}
+
