@@ -12,10 +12,11 @@
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  font-size: 1.2em;
 }
 
 .mainDiv {
-  padding: 0 2em;
+  padding: 0 1.6em;
   max-width: 30%;
   text-align: center;
 }
@@ -23,19 +24,41 @@
 .social-icon {
   color: white;
   padding: 10px;
-  font-size: 2.5em;
+  font-size: 2em;
 }
 
 .social-icon:hover {
   color: grey
 }
 
-.mainDiv {
-  height: 100%
-}
-
 #imgMe {
-  height: 20em;
+  height: 22em;
   border-radius: 40%;
 }
 
+ ul {
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ ul li {
+  display: inline;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .infoSection {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #imgMe {
+    height: 15em;
+  }
+
+  .mainDiv {
+    max-width: 70%;
+  }
+}
