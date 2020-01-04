@@ -1,23 +1,34 @@
-#hoverPage {
+#definitionPage {
   background-color: #31FEE9;
   min-height: 100vh;
   width: 100%;
-  color: #575B5B;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  align-content: flex-start;
+  font-size: 1.3em;
+}
+
+.defBox {
+  max-width: 60%;
+}
+
+.defTitle {
+  font-size: 1.5em;
+}
+
+.dictFont {
+  font-family: serif;
+}
+
+.reducePadding {
   padding: 0;
   margin: 0;
 }
 
-.secDiv {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  font-size: 1.2em;
-  flex-direction: column;
-  align-content: flex-start;
-}
-
-h1.inline, h3.inline {
+h1.inline, h2.inline, h3.inline {
   display: inline-block;
 }
 
@@ -28,4 +39,9 @@ ul.definitions {
 
 ul.definitions li {
   padding: 0.5em;
+}
+
+.details {
+  padding: 10px 0px;
+  font-style: italic;
 }
