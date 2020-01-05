@@ -4,8 +4,9 @@ window.addEventListener('DOMContentLoaded', () => {
   let skew = 1000;
   let delta = 0;
 
-  wrapper.addEventListener('mousemove', (event) => {
+  wrapper.addEventListener('click', (event) => {
     delta = (event.clientX - window.innerWidth / 2) * 0.5;
     topLayer.style.width = event.clientX + skew + delta + "px";
   });
+
 });
