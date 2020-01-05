@@ -41,6 +41,7 @@
   background-color: #31FEE9;
   color: black;
   z-index: 1;
+  font-size: 1.3em;
 }
 
 #main .contentWrap {
@@ -48,8 +49,14 @@
   margin-left: 1000px;
 }
 
-#main .contentWrap .contentBody {
+#definition .contentWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  align-content: flex-start;
 }
 
-#bottom .contentBody {
+#definition .contentWrap .contentBody {
+  max-width: 60%;
 }
