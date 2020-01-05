@@ -9,4 +9,5 @@ window.addEventListener('DOMContentLoaded', () => {
     topLayer.style.width = event.clientX + skew + delta + "px";
   });
 
+
 });
