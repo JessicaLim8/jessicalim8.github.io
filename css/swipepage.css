@@ -17,6 +17,7 @@
 
 .defTitle {
   font-size: 1.5em;
+  padding: 0.5em 0;
 }
 
 .dictFont {
@@ -42,6 +43,6 @@ ul.definitions li {
 }
 
 .details {
-  padding: 10px 0px;
+  padding: 1.3em 0px;
   font-style: italic;
 }
