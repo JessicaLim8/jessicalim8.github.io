@@ -31,10 +31,9 @@
   color: white;
   font-size: 1.3em;
   z-index: 2;
-  width: 50vw;
-  transform: skew(-30deg);
+  transform: skew(-40deg);
   margin-left: -1000px;
-  width: calc(50vw + 1000px);
+  width: calc(100vw + 1000px);
 }
 
 #definition {
@@ -45,7 +44,7 @@
 }
 
 #main .contentWrap {
-  transform: skew(30deg);
+  transform: skew(40deg);
   margin-left: 1000px;
 }
 
