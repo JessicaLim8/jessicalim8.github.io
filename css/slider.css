@@ -33,7 +33,7 @@
   z-index: 2;
   transform: skew(-45deg);
   margin-left: -1000px;
-  width: calc(100vw + 1000px);
+  width: calc(110vw + 1000px);
 }
 
 #definition {
