@@ -1,0 +1,55 @@
+#websitePage {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.layer {
+  position: absolute;
+  width: 100vw;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.contentWrap {
+  position: absolute;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.contentBody {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    transform: translateY(-50%);
+}
+
+#main {
+  background-color: black;
+  color: white;
+  font-size: 1.3em;
+  z-index: 2;
+  width: 50vw;
+  transform: skew(-30deg);
+  margin-left: -1000px;
+  width: calc(50vw + 1000px);
+}
+
+#definition {
+  background-color: #31FEE9;
+  color: black;
+  z-index: 1;
+}
+
+#main .contentWrap {
+  transform: skew(30deg);
+  margin-left: 1000px;
+}
+
+#main .contentWrap .contentBody {
+}
+
+#bottom .contentBody {
+}
