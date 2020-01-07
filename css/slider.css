@@ -1,51 +1,17 @@
-#websitePage {
-  position: relative;
-  width: 100%;
-  min-height: 100vh;
-  overflow: hidden;
-}
-
 .layer {
-  position: absolute;
   width: 100vw;
   min-height: 100vh;
-  overflow: hidden;
-}
-
-.contentWrap {
-  position: absolute;
-  width: 100vw;
-  min-height: 100vh;
-}
-
-.contentBody {
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    text-align: center;
-    transform: translateY(-50%);
+  font-size: 1.2em;
 }
 
 #main {
   background-color: black;
   color: white;
-  font-size: 1.3em;
-  z-index: 2;
-  transform: skew(-45deg);
-  margin-left: -1000px;
-  width: calc(110vw + 1000px);
 }
 
 #definition {
   background-color: #31FEE9;
   color: black;
-  z-index: 1;
-  font-size: 1.3em;
-}
-
-#main .contentWrap {
-  transform: skew(45deg);
-  margin-left: 1000px;
 }
 
 #definition .contentWrap {
@@ -56,20 +22,82 @@
   align-content: flex-start;
 }
 
-#definition .contentWrap .contentBody {
-  max-width: 60%;
+.contentWrap {
+  padding: 1.1em;
 }
 
-#slider {
-  position: absolute;
-  background-color: #FFFFFF;
-  z-index: 3;
-  transform: rotate(45deg) translateY(-50%);
-  transform-origin: top;
-  top: 50%;
-  height: 200%;
-  margin-left: -1000px;
-  left: calc(110vw + 1000px);
-  width: 3px;
+#definition .contentWrap .contentBody {
+  padding: 1em;
+}
+
+@media only screen and (max-width: 768px) {
+  .layer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+
+  #websitePage {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+  }
+
+  .layer {
+    position: absolute;
+    overflow: hidden;
+    font-size: 1.3em;
+  }
+
+  .contentWrap {
+    position: absolute;
+    width: 100vw;
+    min-height: 100vh;
+  }
+
+  .contentBody {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    transform: translateY(-50%);
+  }
+
+  #main {
+    z-index: 2;
+    transform: skew(-45deg);
+    margin-left: -1000px;
+    width: calc(110vw + 1000px);
+  }
+
+  #definition {
+    z-index: 1;
+  }
+
+  #main .contentWrap {
+    transform: skew(45deg);
+    margin-left: 1000px;
+  }
+
+  #definition .contentWrap .contentBody {
+    max-width: 60%;
+  }
+
+  #slider {
+    position: absolute;
+    background-color: #FFFFFF;
+    z-index: 3;
+    transform: rotate(45deg) translateY(-50%);
+    transform-origin: top;
+    top: 50%;
+    height: 200%;
+    margin-left: -1000px;
+    left: calc(110vw + 1000px);
+    width: 3px;
+  }
 }
 
