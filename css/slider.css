@@ -62,7 +62,7 @@
 
 #slider {
   position: absolute;
-  background-color: #C0C4C4;
+  background-color: #FFFFFF;
   z-index: 3;
   transform: rotate(45deg) translateY(-50%);
   transform-origin: top;
@@ -72,3 +72,4 @@
   left: calc(110vw + 1000px);
   width: 5px;
 }
+
