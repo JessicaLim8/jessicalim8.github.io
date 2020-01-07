@@ -9,7 +9,7 @@ window.addEventListener('DOMContentLoaded', () => {
   const moveSlider = (event) => {
     delta = (event.clientX - window.innerWidth / 2) * 0.5;
     topLayer.style.width = event.clientX + skew + delta + 'px';
-    slider.style.left = event.clientX + skew + delta + 'px';
+    //slider.style.left = event.clientX + skew + delta + 'px';
   };
 
   wrapper.addEventListener('click', (event) => {
