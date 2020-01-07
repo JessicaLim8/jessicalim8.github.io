@@ -59,3 +59,16 @@
 #definition .contentWrap .contentBody {
   max-width: 60%;
 }
+
+#slider {
+  position: absolute;
+  background-color: #C0C4C4;
+  z-index: 3;
+  transform: rotate(45deg) translateY(-50%);
+  transform-origin: top;
+  top: 50%;
+  height: 200%;
+  margin-left: -1000px;
+  left: calc(110vw + 1000px);
+  width: 5px;
+}
