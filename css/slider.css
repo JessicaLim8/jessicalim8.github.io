@@ -1,18 +1,17 @@
 .layer {
   width: 100vw;
   min-height: 100vh;
+  font-size: 1.2em;
 }
 
 #main {
   background-color: black;
   color: white;
-  font-size: 1.2em;
 }
 
 #definition {
   background-color: #31FEE9;
   color: black;
-  font-size: 1.2em;
 }
 
 #definition .contentWrap {
@@ -31,6 +30,14 @@
   padding: 1em;
 }
 
+@media only screen and (max-width: 768px) {
+  .layer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 @media only screen and (min-width: 768px) {
 
   #websitePage {
@@ -42,9 +49,8 @@
 
   .layer {
     position: absolute;
-    width: 100vw;
-    min-height: 100vh;
     overflow: hidden;
+    font-size: 1.3em;
   }
 
   .contentWrap {
@@ -62,9 +68,6 @@
   }
 
   #main {
-    background-color: black;
-    color: white;
-    font-size: 1.3em;
     z-index: 2;
     transform: skew(-45deg);
     margin-left: -1000px;
@@ -72,10 +75,7 @@
   }
 
   #definition {
-    background-color: #31FEE9;
-    color: black;
     z-index: 1;
-    font-size: 1.3em;
   }
 
   #main .contentWrap {
