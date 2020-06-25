@@ -19,6 +19,7 @@ h1.inline, h2.inline, h3.inline {
 ul.definitions {
   list-style-type: decimal;
   text-align: left;
+  border: blue solid 1px;
 }
 
 ul.definitions li {
