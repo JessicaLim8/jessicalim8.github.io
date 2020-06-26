@@ -1,0 +1,19 @@
+#blog {
+  background-color: #31FEE9;
+  color: black;
+  width: 100%;
+  font-size: 1.2em;
+  font-family: 'Dosis', sans-serif;
+}
+
+.blogContent {
+  margin: 2em;
+}
+
+.bigIcon {
+  color: black;
+}
+
+.bigIcon:hover {
+  color: grey;
+}
