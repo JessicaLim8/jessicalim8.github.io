@@ -1,3 +1,7 @@
 # Personal Website
 
-### Check out my personal website at [jessicalim.me](https://jessicalim.me)
+### Learn about me and let's connect at [jessicalim.me](https://jessicalim.me)
+
+
+#### Technical details
+Simple swipe design
