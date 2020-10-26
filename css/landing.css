@@ -20,6 +20,7 @@ h1 {
   color: white;
   padding: 8px;
   font-size: 2em;
+  text-decoration: none;
 }
 
 .social-icon:hover {
